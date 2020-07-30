@@ -1,0 +1,33 @@
+
+.item {
+  box-shadow: 0 0 3px #ccc;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  margin: 10px auto;
+  padding: 10px;
+}
+.status {
+  margin: 0 10px;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.statusOn {
+  background-color: green;
+}
+.statusOff {
+  background-color: red;
+}
+.avatarSel {
+  display: inline-block;
+  border-radius: 5px;
+  width: 100px;
+  margin: 0 10px;
+}
+.nameSel {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+}
